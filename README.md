@@ -39,15 +39,15 @@ We checked for missing values, duplicates, categorical and numerical values to e
 We further removed the class imbalance from the daate and standardize to make date Consistent and uniformity of modelling
 Hence this proces This was done to ensured that the data is valid,accurate and complete for modelling
 ## Data Analysis 
-![awesome](dsc-phase-3-project-v2-3/images/intl plan 2.png)
+![awesome1](dsc-phase-3-project-v2-3/images/intl plan 2.png)
 
-![awesome](dsc-phase-3-project-v2-3/images/intl plan.png)
+![awesome2](dsc-phase-3-project-v2-3/images/intl plan.png)
 
-![awesome](dsc-phase-3-project-v2-3/images/loyal customer.png)
+![awesome3](dsc-phase-3-project-v2-3/images/loyal customer.png) 
 
-![awesome](dsc-phase-3-project-v2-3/images/output.png)
+![awesome4](dsc-phase-3-project-v2-3/images/output.png)
 
-![awesome](dsc-phase-3-project-v2-3/images/total call.png)
+![awesome5](dsc-phase-3-project-v2-3\images\total call.png) 
 
 ## Summary
 
