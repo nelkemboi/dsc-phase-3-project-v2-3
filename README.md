@@ -53,11 +53,13 @@ Hence this proces This was done to ensured that the data is valid,accurate and c
 - In average there almost same number of people getting international plan from the most international calls and from the ones who do not make oftenly.
 
 ![awesome4](images/intl%20plan%202.png)
-- There is strong relationship betwen calls and loyalty as most people making the calls are loyal to Syriatel company
-- This shows that there is lower probalility of switching among customers. 
+- There is more customers loyalty by Voice mail plan subscribers due to lower churn rate 
+* Customers have higher rate of churn and higher probabiliy to swich from Seriatel in terms of international plan.  
+* This shows that customers are more happy with voice mail than international plan.   
 
 ![awesome5](images/output.png) 
-
+- There is strong relationship betwen calls and loyalty as most people making the calls are loyal to Syriatel company
+- This shows that there is lower probalility of switching among customers. 
 ## Modelling
 Here we build three models used for predicting customer churn in Seriatel company.
 The three models are 
