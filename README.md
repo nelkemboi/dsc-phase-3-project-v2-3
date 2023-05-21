@@ -3,7 +3,7 @@
 ### Overview
 Due to increased competition there has been concern for determining the churn rate of customers. Since the market is Dynamic customer have options of switching between different telecommunication companies. By utilzing big data in telecom industry it will be possible to predict the churn rate among the customers in this sector and take measures to curb this problem. Predicting customer churn will help telecommunication firms in solving customer needs and increase its retention rates. 
 
-![awesome](E:\phase 3\dsc-phase-3-project-v2-3\images\94357telecom churn.png)
+![awesome](images/churn%20pic.jpg)
 ### Business Understanding
 #### Business Problem
 Since there is high customer churn rate in telecom industry, Seriatel needs to predict the probability of customer churn rate in order to maintain wide customer base. The company needs to retain existing customer since its costly for Seriatel to lose their loyal customers given that acquring new ones is expensive. Customer churn can have significant financial implications for Seriatel, as it can lead to a loss of revenue, market share, and customer loyalty. Customer churn prediction in this case will involve using dataset of Seriatel and machine learning models to identify customers who are at risk of churn, enabling proactive measures to retain them.
@@ -40,15 +40,15 @@ We checked for missing values, duplicates, categorical and numerical values to e
 We further removed the class imbalance from the data and standardize to make date Consistent and uniformity of modelling
 Hence this proces This was done to ensured that the data is valid,accurate and complete for modelling
 ## Data Analysis 
-![awesome1](dsc-phase-3-project-v2-3/images/intl plan 2.png)
+![awesome1](images/total%20call.png)
 
-![awesome2](dsc-phase-3-project-v2-3/images/intl plan.png)
+![awesome2](images/loyal%20customer.png)
 
-![awesome3](dsc-phase-3-project-v2-3/images/loyal customer.png) 
+![awesome3](images/intl%20plan.png) 
 
-![awesome4](images\loyal customer.png)
+![awesome4](images/intl%20plan%202.png)
 
-![awesome5](dsc-phase-3-project-v2-3\images\total call.png) 
+![awesome5](images/output.png) 
 
 ## Modelling
 Here we build three models used for predicting customer churn in Seriatel company.
@@ -63,7 +63,7 @@ This helped in improving model performance hence tuned random forest model attai
 From the above model we concluded that decison tree is the best model for be used by Seriatel in predicting customer churn due to its good perfomance. 
 To futher check on the model perfomance we checked drew ROC curve to check for ROC accuracy and area under the curve. Here we found the roc score for logistic regression, decision tree and random forest classifier as 0.79, 0.88 and 0.92 respectively showing that random forest is indeed the best model for predicting customer churn in Seriatel when its parameters are tuned. 
 
-![awesome5](dsc-phase-3-project-v2-3\images\Auc curve.png) 
+![awesome5](images/Auc%20curve.png) 
 
 From this analysis Seriatel company will be able to: 
 1. Make accurate customer churn prediction.
