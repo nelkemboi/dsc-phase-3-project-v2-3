@@ -41,12 +41,20 @@ We further removed the class imbalance from the data and standardize to make dat
 Hence this proces This was done to ensured that the data is valid,accurate and complete for modelling
 ## Data Analysis 
 ![awesome1](images/total%20call.png)
+- It can be seen that West virginia has highest calls of  `32523` and california the lowest with `10582` 
+- In average the calls from the chart above is `15,000.` 
 
-![awesome2](images/loyal%20customer.png)
+![awesome2](images/churn%20rate.png)
+- It can be seen that most of the customers are loyal to the Serialtel company
+- This is because most of the counts are false based on churn rate count 
 
 ![awesome3](images/intl%20plan.png) 
+- There is no much different by people who make international calls in terms of getting international plan.
+- In average there almost same number of people getting international plan from the most international calls and from the ones who do not make oftenly.
 
 ![awesome4](images/intl%20plan%202.png)
+- There is strong relationship betwen calls and loyalty as most people making the calls are loyal to Syriatel company
+- This shows that there is lower probalility of switching among customers. 
 
 ![awesome5](images/output.png) 
 
