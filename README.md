@@ -34,7 +34,6 @@ The project utilizes historical customer data, including demographic information
 **Customer service calls**: The number of customer service calls made by the customer.
 **Churn**: A binary variable indicating whether the customer has churned (1) or not (0).
 **Total_calls**: The total number of calls made or received by the customer across all periods (day, evening, and night).
-
 **Total_charge**: The total charges incurred by the customer across all usage periods.
 ## Data processing 
 We checked for missing values, duplicates, categorical and numerical values to ensure that data is clean and in correct formaat for modelling. 
