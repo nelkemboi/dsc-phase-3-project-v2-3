@@ -42,7 +42,7 @@ The project utilizes historical customer data, including demographic information
 - We also dropped the outliers that can affect the data and give wrong predictions. 
 - The chart shows boxplot after some outliers were dropped. 
 
-![awesome1](images/outliers.png)
+![awesome1](images/boxplot.png)
 ## Data Analysis 
 We visualized several columns on churn rates, voice mail and internation plan relationship with churn and calls made in United States to get more insights about our data
 
