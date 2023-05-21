@@ -36,7 +36,7 @@ The project utilizes historical customer data, including demographic information
 - total_charge: The total charges incurred by the customer across all usage periods.
 ## Data processing 
 We checked for missing values, duplicates, categorical and numerical values to ensure that data is clean and in correct formaat for modelling. 
-We further removed the class imbalance from the daate and standardize to make date Consistent and uniformity of modelling
+We further removed the class imbalance from the data and standardize to make date Consistent and uniformity of modelling
 Hence this proces This was done to ensured that the data is valid,accurate and complete for modelling
 ## Data Analysis 
 ![awesome1](dsc-phase-3-project-v2-3/images/intl plan 2.png)
@@ -49,6 +49,17 @@ Hence this proces This was done to ensured that the data is valid,accurate and c
 
 ![awesome5](dsc-phase-3-project-v2-3\images\total call.png) 
 
-## Summary
+## Modelling
+Here we build three models used for predicting customer churn in Seriatel company.
+The three models are 
+1. Logistic regression which had accuracy level of 81.6% but after cross validation with 5 folds its accuracy improevd to 86.8%.
+2. Decision tree classifier was another model which had accuracy level of 90.7% in predicting customer churn and not churn.
+3. Finally we build decision tree classifier model which achieved an accracy level of 90.9%.
+We picked the most accurate model that is decision tree and tuned the hyperparameter using grid search.
+This helped in improving model performance hence tuned random forest model attained accuracy level of 97.45%. 
 
-This project is an opportunity to expand your data science toolkit by evaluating, choosing, and working with new datasets. Spending time up front making sure you have a good dataset for a solvable problem will help avoid the major problems that can sometimes derail data science projects. You've got this!
+## Evaluation 
+From the above model we concluded that decison tree is the best model for be used by Seriatel in predicting customer churn due to its good perfomance. 
+To futher check on the model perfomance we checked drew ROC curve to check for ROC accuracy and area under the curve. Here we found the roc score for logistic regression, decision tree and random forest classifier as 0.79, 0.88 and 0.92 respectively showing that random forest is indeed the best model for predicting customer churn in Seriatel when its parameters are tuned. 
+
+From this Seriatel company will be able to 
