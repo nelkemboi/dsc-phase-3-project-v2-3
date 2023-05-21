@@ -46,7 +46,7 @@ Hence this proces This was done to ensured that the data is valid,accurate and c
 
 ![awesome3](dsc-phase-3-project-v2-3/images/loyal customer.png) 
 
-![awesome4](dsc-phase-3-project-v2-3/images/output.png)
+![awesome4](images\loyal customer.png)
 
 ![awesome5](dsc-phase-3-project-v2-3\images\total call.png) 
 
