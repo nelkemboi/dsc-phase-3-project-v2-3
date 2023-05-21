@@ -37,9 +37,15 @@ The project utilizes historical customer data, including demographic information
 - Total_charge: The total charges incurred by the customer across all usage periods.
 ## Data processing 
 We checked for missing values, duplicates, categorical and numerical values to ensure that data is clean and in correct formaat for modelling. 
-We further removed the class imbalance from the data and standardize to make date Consistent and uniformity of modelling
+We further removed the class imbalance from the data and standardize to make date Consistent and uniformity of modelling. 
 Hence this proces This was done to ensured that the data is valid,accurate and complete for modelling
+We also dropped some of the outliers that can affect the data and give wrong predictions. 
+The chart shows boxplot after some outliers were dropped. 
+
+![awesome1](images/outliers.png)
 ## Data Analysis 
+We visualized several columns on churn rates, voice mail and internation plan relationship with churn and calls made in United States to get more insights about our data
+
 ![awesome1](images/total%20call.png)
 - It can be seen that West virginia has highest calls of  `32523` and california the lowest with `10582` 
 - In average the calls from the chart above is `15,000.` 
@@ -75,8 +81,11 @@ To futher check on the model perfomance we checked drew ROC curve to check for R
 
 ![awesome5](images/Auc%20curve.png) 
 
-From this analysis Seriatel company will be able to: 
+ patters. 
+## Conclusion 
+- Decesion tree classifier is the best model to be used by Seriatel company
+- From this analysis Seriatel company will be able to: 
 1. Make accurate customer churn prediction.
 2. Cost savings by developing customer retention strategies. 
 3. Ensure that there is customer retention.
-4. Develop business strategy and decision making since they will get customer insights and behavior patters. 
+4. Develop business strategy and decision making since they will get customer insights and behavior
