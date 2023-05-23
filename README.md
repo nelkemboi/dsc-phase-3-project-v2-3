@@ -66,6 +66,9 @@ We visualized several columns on churn rates, voice mail and internation plan re
 ![awesome5](images/output.png) 
 - There is strong relationship betwen calls and loyalty as most people making the calls are loyal to Syriatel company
 - This shows that there is lower probalility of switching among customers. 
+![awesome1](images/talk%20time.png)
+- The distribution of total ninutes a day, in the evening and at night is normal.
+- All the total calls made on diffrent times of the day have almost same mean.
 ## Modelling
 Here we build three models used for predicting customer churn in Seriatel company.
 The three models are 
