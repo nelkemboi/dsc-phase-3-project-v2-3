@@ -72,11 +72,10 @@ We visualized several columns on churn rates, voice mail and internation plan re
 ## Modelling
 Here we build three models used for predicting customer churn in Seriatel company.
 The three models are 
-1. Logistic regression which had accuracy rate 89.4% on training data and 85.4% to testing data but after crossvalidation with 5 folds testing data improved to 86.4% and testing data dropped to 89.2%.
-2. Decision tree classifier was another model which had 92.3% accuracy level on training data and 97.4% on testing data in predicting customer churn and not churn.
-3. Finally we build decision tree classifier model which achieved an accuracy level of 91.2% on training data and testing data accuracy of 93.3%.
-We picked the most accurate model that is decision tree and tuned the hyperparameter using grid search.
-This helped in improving model performance hence tuned random forest model attained accuracy level of 97.45%. 
+1. Logistic regression which had accuracy rate 89.6% on training data and 86.0% to testing data but after crossvalidation with 5 folds testing data improved to 86.2% and testing data dropped to 89.2%.
+2. Decision tree classifier was another model which had 88.6% accuracy level on training data and 92.5% on testing data in predicting customer churn and not churn. After gridsearch hypertuning the training prediction improved to 90.4% and 93.6% testing accuracy. 
+3. Finally we build decision tree classifier model which achieved an accuracy level of 87.1% on training data and testing data accuracy of 87.2%. After hypertuning random forest model its accuracy improved to 93.6% on training data and 92.7% on testing data. 
+We picked the the two best predicting models that is decision tree and random forest and tuned the hyperparameter using grid search. This helped in improving model performance and reduce any case of overfit. 
 
 ## Evaluation 
 - From the above model we concluded that decison tree is the best model for be used by Seriatel in predicting customer churn due to its good perfomance. 
@@ -88,7 +87,7 @@ This helped in improving model performance hence tuned random forest model attai
 
  patters. 
 ## Conclusion 
-- Decesion tree classifier is the best model to be used by Seriatel company
+- Decision tree classifier is the best model to be used by Seriatel company
 - From this analysis Seriatel company will be able to: 
 1. Make accurate customer churn prediction.
 2. Cost savings by developing customer retention strategies. 
