@@ -72,14 +72,14 @@ We visualized several columns on churn rates, voice mail and internation plan re
 ## Modelling
 Here we build three models used for predicting customer churn in Seriatel company.
 The three models are 
-1. Logistic regression which had accuracy rate 89.6% on training data and 86.0% to testing data but after crossvalidation with 5 folds testing data improved to 86.2% and testing data dropped to 89.2%.
-2. Decision tree classifier was another model which had 88.6% accuracy level on training data and 92.5% on testing data in predicting customer churn and not churn. After gridsearch hypertuning the training prediction improved to 90.4% and 93.6% testing accuracy. 
-3. Finally we build decision tree classifier model which achieved an accuracy level of 87.1% on training data and testing data accuracy of 87.2%. After hypertuning random forest model its accuracy improved to 93.6% on training data and 92.7% on testing data. 
+1. Logistic regression which had accuracy rate `89.6%` on training data and `86.0%` to testing data but after crossvalidation with 5 folds testing data improved to `86.2%` and testing data dropped to `89.2%.`
+2. Decision tree classifier was another model which had `88.6%` accuracy level on training data and `92.5%` on testing data in predicting customer churn and not churn. After gridsearch hypertuning the training prediction improved to `90.4%` and `93.6%` testing accuracy. 
+3. Finally we build decision tree classifier model which achieved an accuracy level of `87.1%` on training data and testing data accuracy `of 87.2%`. After hypertuning random forest model its accuracy improved to `93.6%` on training data and `92.7%` on testing data. 
 We picked the the two best predicting models that is decision tree and random forest and tuned the hyperparameter using grid search. This helped in improving model performance and reduce any case of overfit. 
 
 ## Evaluation 
 - From the above model we concluded that decison tree is the best model for be used by Seriatel in predicting customer churn due to its good perfomance. 
-- To futher check on the model perfomance we checked drew ROC curve to check for ROC accuracy and area under the curve. Here we found the roc score for logistic regression, decision tree and random forest classifier as 0.83, 0.88 and 0.91 respectively.
+- To futher check on the model perfomance we checked drew ROC curve to check for ROC accuracy and area under the curve. Here we found the roc score for logistic regression, decision tree and random forest classifier as `0.83, 0.88` and `0.91` respectively.
 - After hyperparameter tuning we picked decision tree classifier is indeed the best model for predicting customer churn in Seriatel since its accuracy imrproved after tuning with gridsearch. 
 - Random forest is a good model too but its too complex, time consuming, expensive and in this case overfitted after grid search tuning.
 
