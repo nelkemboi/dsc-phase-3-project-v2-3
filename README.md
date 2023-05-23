@@ -80,9 +80,9 @@ This helped in improving model performance hence tuned random forest model attai
 
 ## Evaluation 
 - From the above model we concluded that decison tree is the best model for be used by Seriatel in predicting customer churn due to its good perfomance. 
-- To futher check on the model perfomance we checked drew ROC curve to check for ROC accuracy and area under the curve. Here we found the roc score for logistic regression, decision tree and random forest classifier as 0.83, 0.93 and 0.93 respectively.
-- Since the  training data dropped in decision tree after hyperparameter tuning we will pick random forest is indeed the best model for predicting customer churn in Seriatel when its parameters are tuned. 
-- Decision tree is a good model too but its too simple and has higher variablity between training and testing data
+- To futher check on the model perfomance we checked drew ROC curve to check for ROC accuracy and area under the curve. Here we found the roc score for logistic regression, decision tree and random forest classifier as 0.83, 0.88 and 0.91 respectively.
+- After hyperparameter tuning we picked decision tree classifier is indeed the best model for predicting customer churn in Seriatel since its accuracy imrproved after tuning with gridsearch. 
+- Random forest is a good model too but its too complex, time consuming, expensive and in this case overfitted after grid search tuning.
 
 ![awesome5](images/roc.png) 
 
