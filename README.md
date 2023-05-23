@@ -69,9 +69,9 @@ We visualized several columns on churn rates, voice mail and internation plan re
 ## Modelling
 Here we build three models used for predicting customer churn in Seriatel company.
 The three models are 
-1. Logistic regression which had accuracy level of 81.6% but after cross validation with 5 folds its accuracy improevd to 86.8%.
-2. Decision tree classifier was another model which had accuracy level of 90.7% in predicting customer churn and not churn.
-3. Finally we build decision tree classifier model which achieved an accracy level of 90.9%.
+1. Logistic regression which had accuracy rate 89.4% on training data and 85.4% to testing data but after crossvalidation with 5 folds testing data improved to 86.4% and testing data dropped to 89.2%.
+2. Decision tree classifier was another model which had 92.3% accuracy level on training data and 97.4% on testing data in predicting customer churn and not churn.
+3. Finally we build decision tree classifier model which achieved an accuracy level of 91.2% on training data and testing data accuracy of 93.3%.
 We picked the most accurate model that is decision tree and tuned the hyperparameter using grid search.
 This helped in improving model performance hence tuned random forest model attained accuracy level of 97.45%. 
 
